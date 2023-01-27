@@ -16,3 +16,9 @@ spec:
       version: 5.5.3
   interval: 1m0s
   targetNamespace: kasten-io
+  values:
+    prometheus:
+      server:
+        enabled: false
+    grafana:
+      enabled: false
